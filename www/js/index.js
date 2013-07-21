@@ -17,10 +17,9 @@
  * under the License.
  */
 var app = {
+
     // Application Constructor
     initialize: function() {
-//        debugger;
-
         this.bindEvents();
     },
     // Bind Event Listeners
@@ -37,7 +36,7 @@ var app = {
     onDeviceReady: function() {
 //        app.receivedEvent('deviceready');
         var map = L.mapbox.map('map', 'jasalguero.map-5tj37px7');
-        showAlert("app initialised", "hey!");
+        this.showAlert("app initialised", "hey!");
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
