@@ -19,10 +19,9 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        debugger;
-        var map = L.mapbox.map('map', 'jasalguero.map-5tj37px7');
+//        debugger;
 
-//        this.bindEvents();
+        this.bindEvents();
     },
     // Bind Event Listeners
     //
