@@ -19,7 +19,10 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        this.bindEvents();
+        debugger;
+        var map = L.mapbox.map('map', 'jasalguero.map-5tj37px7');
+
+//        this.bindEvents();
     },
     // Bind Event Listeners
     //
@@ -33,7 +36,8 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+//        app.receivedEvent('deviceready');
+        var map = L.mapbox.map('map', 'jasalguero.map-5tj37px7');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
