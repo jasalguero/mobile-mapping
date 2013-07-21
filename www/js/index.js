@@ -21,6 +21,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+        this.showAlert("app initialised", "hey!");
     },
     // Bind Event Listeners
     //
@@ -36,7 +37,7 @@ var app = {
     onDeviceReady: function() {
 //        app.receivedEvent('deviceready');
         var map = L.mapbox.map('map', 'jasalguero.map-5tj37px7');
-        this.showAlert("app initialised", "hey!");
+
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
