@@ -29,7 +29,6 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        showAlert("app initialised", "hey!");
     },
     // deviceready Event Handler
     //
@@ -38,6 +37,7 @@ var app = {
     onDeviceReady: function() {
 //        app.receivedEvent('deviceready');
         var map = L.mapbox.map('map', 'jasalguero.map-5tj37px7');
+        showAlert("app initialised", "hey!");
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
