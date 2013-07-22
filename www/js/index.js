@@ -21,7 +21,8 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-        this.showAlert("app initialised", "hey!");
+//        this.showAlert("app initialised", "hey!");
+
     },
     // Bind Event Listeners
     //
